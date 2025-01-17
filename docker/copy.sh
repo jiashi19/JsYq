@@ -7,14 +7,14 @@ usage() {
 }
 
 
-# copy sql
-echo "begin copy sql "
-cp ../sql/ry_20240629.sql ./mysql/db
-cp ../sql/ry_config_20240902.sql ./mysql/db
-
-# copy html
-echo "begin copy html "
-cp -r ../ruoyi-ui/dist/** ./nginx/html/dist
+## copy sql
+#echo "begin copy sql "
+#cp ../sql/ry_20240629.sql ./mysql/db
+#cp ../sql/ry_config_20240902.sql ./mysql/db
+#
+## copy html
+#echo "begin copy html "
+#cp -r ../ruoyi-ui/dist/** ./nginx/html/dist
 
 
 # copy jar

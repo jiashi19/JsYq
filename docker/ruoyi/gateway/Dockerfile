@@ -1,7 +1,7 @@
 # 基础镜像
 FROM  openjdk:8-jre
 # author
-MAINTAINER ruoyi
+MAINTAINER jiashi
 
 # 挂载目录
 VOLUME /home/ruoyi
