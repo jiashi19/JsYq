@@ -1,5 +1,5 @@
 # 基础镜像
-FROM nacos/nacos-server
+FROM nacos/nacos-server:v2.1.0-slim
 # author
 MAINTAINER jiashi
 
