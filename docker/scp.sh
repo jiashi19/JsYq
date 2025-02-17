@@ -1,0 +1,1 @@
+scp -r ruoyi/monitor/jar/ruoyi-visual-monitor.jar -P 5523 user1:Usrpass!1@223.129.90.13:/home/user1/jsyq/ruoyi/monitor/jar/ruoyi-visual-monitor.jar

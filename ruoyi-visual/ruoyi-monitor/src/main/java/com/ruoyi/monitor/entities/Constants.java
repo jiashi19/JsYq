@@ -1,9 +1,9 @@
-package com.ruoyi.monitor.instant;
+package com.ruoyi.monitor.entities;
 
 /**
  * 通用常量信息
  * 
- * @author ruoyi
+ * @author jiashi
  */
 public class Constants
 {

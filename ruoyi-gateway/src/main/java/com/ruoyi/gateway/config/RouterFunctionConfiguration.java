@@ -11,8 +11,8 @@ import com.ruoyi.gateway.handler.ValidateCodeHandler;
 
 /**
  * 路由配置信息
- * 
- * @author ruoyi
+ * 当请求符合条件（get /code）应该调用的handler是validateCodeHandler
+ * @author jiashi
  */
 @Configuration
 public class RouterFunctionConfiguration

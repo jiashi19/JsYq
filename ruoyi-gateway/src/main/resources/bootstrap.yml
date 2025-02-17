@@ -23,6 +23,9 @@ spring:
         # 共享配置
         shared-configs:
           - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+    loadbalancer:
+      health-check:
+        interval: 5s
     sentinel:
       # 取消控制台懒加载
       eager: true
